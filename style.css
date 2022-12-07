@@ -172,7 +172,8 @@ footer {
 
 .card {
     border-radius: 5px;
-    background-color: rgba(238, 247, 172, 1);
+    background-color: rgba(217, 247, 172, 0.35);
+    box-shadow: 2px 2px #D9F7AC;
 }
 
 /* Image to Card ratio */
@@ -219,7 +220,8 @@ article>p {
 form {
     display:flex;
     flex-direction:row;
-    border: 2px solid #6fc27c;
+    border: 2px solid #D9F7AC;
+    box-shadow: 2px 3px #D9F7AC;
     border-radius: 10px;
     padding:2px;
     flex-basis: 33%;
@@ -235,7 +237,8 @@ form {
   }
   
   button[type=submit] {
-    border: 1.5px solid black;
+    border: 1.5px solid #c3de9b;
+    box-shadow: 1px 1px  #D9F7AC;
     border-radius: 10px;    
     color:black;
     background-color: white;
@@ -257,7 +260,7 @@ form {
 
 	appearance: none;
 	border-radius: 5px;
-    border: 2px solid #6fc27c;
+    border: 2px solid #c3de9b;
     background-color: #FFF;
 	outline: none;
 	cursor: pointer;
@@ -272,11 +275,11 @@ form {
 }
 
 .page-numbers button:hover {
-	background-color: #6fc27c;
+	background-color:  #D9F7AC;
 }
 
 .page-numbers button.active {
-	background-color: #6fc27c;
+	background-color:  #D9F7AC;
 }
 
 /* Mobile */
